@@ -1,0 +1,39 @@
+{
+  "name": "bit-theme-google-chrome",
+  "version": "1.0.0",
+  "description": "The official Bit Theme for Google Chrome.",
+  "homepage": "https://github.com/bit-theme/google-chrome",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bit-theme/google-chrome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bit-theme/google-chrome/issues"
+  },
+  "author": {
+    "name": "Pedro Henrique",
+    "email": "pyter.dev@gmail.com",
+    "url": "https://github.com/pedro-henrique-sb"
+  },
+  "maintainers": [
+    "Pedro Henrique <pyter.dev@gmail.com>"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "build": "node src/scripts/build.js"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "archiver": "^5.3.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "^7.0.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

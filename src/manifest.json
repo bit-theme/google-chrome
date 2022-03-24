@@ -1,0 +1,36 @@
+{
+  "name": "Bit Theme: Dark Theme for Chrome",
+  "version": "1.0.0",
+  "description": "The official Bit Theme for Google Chrome.",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_frame": "images/theme_frame.png",
+      "theme_toolbar": "images/theme_toolbar.png",
+      "theme_tab_background": "images/theme_tab_background.png"
+    },
+    "colors": {
+      "frame": [ 18, 18, 18 ],
+      "toolbar": [ 34, 34, 34 ],
+      "tab_text": [ 65, 184, 131 ],
+      "tab_background_text": [ 128, 128, 128 ],
+      "bookmark_text": [ 226, 226, 226 ],
+      "ntp_background": [ 23, 23, 23 ],
+      "ntp_text": [ 226, 226, 226 ],
+      "ntp_link": [ 121, 180, 226 ],
+      "button_background": [ 18, 18, 18, 1 ]
+    },
+    "tints": {
+      "buttons": [ 0, 0, 0.89 ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
